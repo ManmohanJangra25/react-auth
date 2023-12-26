@@ -9,6 +9,10 @@
   gap: 1rem;
 }
 
+.list li{
+  max-height: 140px;
+}
+
 .item a {
   text-decoration: none;
   color: inherit;
@@ -26,6 +30,7 @@
 .item img {
   width: 33%;
   object-fit: cover;
+  max-height: 140px;
 }
 
 .content {
